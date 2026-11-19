@@ -2002,7 +2002,7 @@ class SettingConfig {
   }
 
   static int maxLatencyCheckConcurrency() {
-    return PlatformUtils.isPC() ? 20 : 10;
+    return 50;
   }
 }
 
